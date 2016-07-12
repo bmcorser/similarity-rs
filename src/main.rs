@@ -30,7 +30,7 @@ fn main() {
         let mut doc = Vec::new();
         let word_freq = wf(desc);
         for (word, freq) in word_freq.iter() {
-            doc.push((String::from(word.clone()), freq.clone() as usize));
+            doc.push((word.to_owned(), freq.clone() as usize));
             println!("({}, {})", word, freq);
         }
         docs.push(doc);
