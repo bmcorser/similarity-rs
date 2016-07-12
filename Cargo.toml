@@ -1,0 +1,9 @@
+[package]
+name = "similarity-rs"
+version = "0.1.0"
+authors = ["bmcorser <benmarshallcorser@gmail.com>"]
+
+[dependencies]
+csv = "0.14.4"
+itertools = "0.3.21"
+rust-tfidf = "1.0.4"
